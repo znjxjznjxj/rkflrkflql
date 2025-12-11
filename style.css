@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    background: #f6f7f9;
+}
+
+/* 상단 영역 */
+.top-bar {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.url {
+    font-weight: 600;
+}
+
+/* 페이지 제목 영역 */
+.page-title-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    border-bottom: 2px solid #b14545;
+}
+
+.page-title-area h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.back-btn {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+/* 스크롤 가능 영역 */
+.table-wrapper {
+    overflow-x: auto;
+    background: white;
+    margin: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* 테이블 스타일 */
+.score-table {
+    width: 900px; /* 좌우 스크롤 발생 */
+    border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+/* 헤더 */
+.score-table thead {
+    background: #f2f3f5;
+    font-weight: 600;
+}
+
+/* 학기 구분줄 */
+.semester-row td {
+    background: #e6e8ea;
+    font-weight: bold;
+    padding: 10px;
+    color: #444;
+}
